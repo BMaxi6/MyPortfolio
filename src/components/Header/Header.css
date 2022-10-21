@@ -1,0 +1,32 @@
+p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.header {
+    width: 100vw;
+    background-color: #202125;
+}
+
+.header-title-container {
+    direction: column;
+    text-align: center;
+    width: 30vw;
+}
+
+.header_grid {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.header_name {
+    font-size: 1.5rem;
+}
+
+.header_desc {
+    font-size: 1rem;
+    text-align: center;
+}

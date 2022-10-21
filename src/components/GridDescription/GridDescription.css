@@ -1,0 +1,29 @@
+.grid-container {
+    padding: 3rem 3rem 0rem 3rem;
+    background-color: #202125;
+}
+
+.body-grid {
+    display: grid;
+    grid-template-columns: 40vw 1fr;
+}
+
+.grid-image {
+    width: 35vw;border-radius: 10px;
+}
+
+.grid-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-item__container {
+    direction: column;
+    text-align: center;
+}
+
+.grid-item__paragraph {
+    padding: 0 3rem 0 3rem;
+    line-height: 2rem;
+}
